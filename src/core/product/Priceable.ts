@@ -1,7 +1,7 @@
 export default interface Priceable {
   basePrice: number;
   promotionalPrice: number;
-  lowerPrice: number;
-  biggerPrice: number;
+  lowestPrice: number;
+  biggestPrice: number;
   avgPrice: number;
 }
