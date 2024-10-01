@@ -22,7 +22,7 @@ const Page = ({ children, className, noHeader, noFooter }: PageProps) => {
         style={{ background: 'url("/background.png")' }}
       >
         {!noHeader && <Header />}
-        <main className={`flex-1 flex flex-col ${className ?? ""}`}>
+        <main className={`flex-1 flex flex-col ${className ?? ""} mt-10`}>
           {children}
         </main>
         {!noFooter && <Footer />}

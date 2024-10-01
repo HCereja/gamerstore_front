@@ -43,14 +43,17 @@ const Footer = () => {
             <div className="flex gap-1.5">
               <span>Feito por</span>
               <span>
-                <Link href="https://github.com/HCereja">
+                <a
+                  href="https://github.com/HCereja"
+                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Henrique Costa Cereja
-                </Link>
+                </a>
               </span>
               <span>na semana de formação dev da Cod3r Cursos</span>
             </div>
-            {/* <span className="hidden md:inline-block">-</span>
-            <span>Todos os direitos reservados</span> */}
           </div>
         </div>
       </div>
