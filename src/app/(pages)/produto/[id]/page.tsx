@@ -1,3 +1,4 @@
+import BuyingBanner from "@/components/product/BuyingBanner";
 import ProductInfo from "@/components/product/ProductInfo";
 import ProductNotFound from "@/components/product/ProductNotFound";
 import ProductTitle from "@/components/product/ProductTitle";
@@ -12,6 +13,7 @@ const ProductPage = (props: any) => {
       <div className="flex flex-col gap-10">
         <ProductTitle product={product} />
         <ProductInfo product={product} />
+        <BuyingBanner product={product} />
       </div>
     </div>
   ) : (
